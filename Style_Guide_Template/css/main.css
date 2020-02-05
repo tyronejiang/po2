@@ -23,6 +23,7 @@ nav a{
 
 nav a:hover{
   color: black;
+  text-decoration:underline;
 }
 
 .nav_left{
@@ -77,6 +78,7 @@ section code {
 
 .button-nav:hover, .button-nav:focus {
     color: black;
+    text-decoration:underline;
 }
 
 /*Styling for the in text link*/
@@ -89,6 +91,7 @@ section code {
 }
 .in-text-link:hover, .in-text-link:focus {
   color: black;
+  text-decoration:underline;
 }
 
 /*Styling for submit button*/
