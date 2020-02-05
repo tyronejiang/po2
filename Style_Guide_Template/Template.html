@@ -1,0 +1,372 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+
+    <meta charset="utf-8">
+    <title>Style Guide Template</title>
+
+    <link href="css/main.css" rel="stylesheet">
+
+    <link href="https://fonts.googleapis.com/css?family=Alegreya%7CAnton%7CBebas+Neue%7CPlayfair+Display&display=swap" rel="stylesheet">
+
+  </head>
+
+  <body>
+
+    <h1>Style Guide Template</h1>
+
+    <p>A template you can use to start building out your own style guides with.</p>
+
+
+    <nav>
+      
+      <p>
+        Go to:
+        <a href="#interactive_elements">Interactive Elements</a>,
+        <a href="#text_elements">Text Elements</a>,
+        <a href="#combined_elements">Combined Elements</a>,
+        <a href="wireframe/home.html" target="_blank"> Desktop Wireframe</a>
+        <a href="smartphone_wireframe/home.html" target="_blank"> Smartphone Wireframe</a>
+        <a href="citation.html"> Citation</a>
+      </p>
+
+    </nav>
+
+
+
+    <!-- INTERACTIVE ELEMENTS SECTION // -->
+    <section id="interactive_elements">
+
+      <!-- Default Button styling section -->
+      <section>
+
+        <h2>Navigation Button</h2>
+
+        <h3>CSS selector:</h3>
+        <p>.button-nav</p>
+
+        <h3>Sample code:</h3>
+        <code>&lt;a href="#" class="button"&gt;Default Button&lt;/a&gt;</code>
+
+        <h3>Rendered element:</h3>
+        <a class="button-nav" href="#">Default Button</a>
+
+      </section>
+
+      <section>
+        <h2>In-text link</h2>
+        <h3>CSS selector:</h3>
+        <p>.in-text-link</p>
+
+        <h3>Sample code:</h3>
+        <code>&lt;a href="#" class="in-text-link"&gt;in-text link&lt;/a&gt;</code>
+
+        <h3>Rendered element:</h3>
+        <a class="in-text-link" href="#">in-text link</a>
+      </section>
+
+      <section>
+        <h2>Submit/Reset Buttons</h2>
+        <h3>CSS selector:</h3>
+        <p>.btn-submit</p>
+
+        <h3>Sample code:</h3>
+        <code>&lt;input class="btn-submit" type="submit" value="Submit"&gt;</code>
+
+        <h3>Rendered element:</h3>
+        <input class="btn-submit" type="submit" value="Submit">
+		
+		<h3>CSS selector:</h3>
+        <p>.btn-reset</p>
+
+        <h3>Sample code:</h3>
+        <code>&lt;input class="btn-reset" type="reset" value="Reset"&gt;</code>
+
+        <h3>Rendered element:</h3>
+        <input class="btn-reset" type="reset" value="Reset" >
+      </section>
+
+      <section>
+        <h2>Text Input Field</h2>
+        <h3>CSS selector:</h3>
+        <p>.input-info</p>
+
+        <h3>Sample code:</h3>
+        <code>
+		&lt;label&gt;Name&lt;/label&gt;
+		&lt;input class="input-info" type="text" placeholder="name" &gt;
+		</code>
+
+        <h3>Rendered element:</h3>
+        <label>Name</label>
+		<input class="input-info" type="text" placeholder="name">
+		<span class="focus-border"></span>
+
+
+      </section>
+
+    </section>
+    <!-- // INTERACTIVE ELEMENTS SECTION -->
+
+
+
+    <!-- TEXT ELEMENTS SECTION // -->
+    <section id="text_elements">
+
+      <section>
+        <h2>Headings</h2>
+        <h3>CSS selector:</h3>
+        <p>.heading-one</p>
+		
+		<h3>Sample code:</h3>
+        <code>&lt;h1 class="heading-one"&gt;Heading one&lt;/h1&gt;</code>
+
+        <h3>Rendered element:</h3>
+        <h1 class="heading-one">Heading one</h1>
+		
+		<h3>CSS selector:</h3>
+        <p>.heading-two</p>
+		
+		<h3>Sample code:</h3>
+        <code>&lt;h2 class="heading-two"&gt;Heading two&lt;/h2&gt;</code>
+
+        <h3>Rendered element:</h3>
+        <h2 class="heading-two">Heading two</h2>
+		
+		<h3>CSS selector:</h3>
+        <p>.heading-three</p>
+		
+		<h3>Sample code:</h3>
+        <code>&lt;h3 class="heading-three"&gt;Heading three&lt;/h3&gt;
+		</code>
+
+        <h3>Rendered element:</h3>
+        <h3 class="heading-three">Heading three</h3>
+      </section>
+
+      <section>
+        <h2>Paragraphs</h2>
+        <h3>CSS selector:</h3>
+        <p>.para</p>
+		
+		<h3>Sample code:</h3>
+        <code>&lt;p class="para"&gt;This is a paragraph&lt;/p&gt;
+		</code>
+
+        <h3>Rendered element:</h3>
+        <p class="para">This is a paragraph</p>
+      </section>
+
+      <section>
+        <h2>Bulleted Lists</h2>
+
+		<h3>CSS selector:</h3>
+        <p>.bullet-lst</p>
+		
+		<h3>Sample code:</h3>
+		<pre>
+        <code>
+&lt;ul class="bullet-lst"&gt;
+
+	&lt;li&gt;item 1&lt;/li&gt;
+
+  	&lt;li&gt;item 2&lt;/li&gt;
+
+&lt;/ul&gt;</code>
+		</pre>
+
+        <h3>Rendered element:</h3>
+        <ul class="bullet-lst">
+			<li>item 1</li>
+			<li>item 2</li>
+		</ul>
+		
+      </section>
+
+      <section>
+        <h2>Numbered Lists</h2>
+
+		<h3>CSS selector:</h3>
+        <p>.numbered-lst</p>
+		
+		<h3>Sample code:</h3>
+		<pre>
+        <code>
+&lt;ol class="numbered-lst"&gt;
+
+	&lt;li&gt;item 1&lt;/li&gt;
+
+  	&lt;li&gt;item 2&lt;/li&gt;
+
+&lt;/ol&gt;</code>
+		</pre>
+
+        <h3>Rendered element:</h3>
+        <ol class="numbered-lst">
+			<li>item 1</li>
+			<li>item 2</li>
+		</ol>
+      </section>
+
+    </section>
+    <!-- // TEXT ELEMENTS SECTION -->
+
+
+
+    <!-- COMBINED ELEMENTS SECTION // -->
+    <section id="combined_elements">
+
+      <section>
+        <h2>Main Navigation</h2>
+        <h3>CSS selector:</h3>
+        <p>.button-nav</p>
+		<p>nav#menu</p>
+		
+		<h3>Sample code:</h3>
+		<pre><code>
+&lt;nav&gt;
+
+	&lt;a href="#" class="button-nav"&gt;Menu 1&lt;/a&gt;
+
+	&lt;a href="#" class="button-nav"&gt;Menu 2&lt;/a&gt;
+
+	&lt;a href="#" class="button-nav"&gt;Menu 3&lt;/a&gt;
+
+	&lt;a href="#" class="button-nav"&gt;Menu 4&lt;/a&gt;
+
+&lt;/nav&gt;</code></pre>
+		
+		<h3>Rendered element:</h3>
+		<nav id="menu">
+			<a href="#" class="button-nav">Menu 1</a>
+			<a href="#" class="button-nav">Menu 2</a>
+			<a href="#" class="button-nav">Menu 3</a>
+			<a href="#" class="button-nav">Menu 4</a>
+		</nav>
+      </section>
+
+      <section>
+        <h2>Product Listing</h2>
+        <h3>CSS selector:</h3>
+        <p>.product-container</p>
+		<p>.product-item</p>
+		<p>.product-item h3</p>
+		<p>.product-item ul</p>
+		<p>.product-item p</p>
+		<p>.button-detail</p>
+		
+		<h3>Rendered element:</h3>
+		<div class="product-container">
+			<div class="product-item">
+				
+				<img src="img/m4.jpg" alt="BMW m4" width="500">
+				
+				<div>
+					
+					<h3> 2018 BMW M4 </h3>
+					
+					<ul>
+						<li>Transimmison : Automatic</li>
+						<li>Exterior color : Blue</li>
+						<li>Condition : Used</li>
+					</ul>
+					 <a class="button-detail" href="">View Detail</a>
+				</div>
+			</div>
+			<div class="product-item">
+				
+				<img src="img/m4.jpg" alt="BMW m4" width="500">
+				
+				<div>
+					
+					<h3> 2018 BMW M4 </h3>
+					
+					<ul>
+						<li>Transimmison : Automatic</li>
+						<li>Exterior color : Blue</li>
+						<li>Condition : Used</li>
+					</ul>
+					 <a class="button-detail" href="#">View Detail</a>
+				</div>
+			</div>
+
+			
+			
+		</div>
+
+		
+      </section>
+	
+	<section>
+		   <h2>Website grid structure</h2>
+		   <h3>Rendered result:</h3>
+		  
+		   <div id="structure-sample">
+				   <!-- Header -->
+				<header>
+					<div class="logo">Logo</div>
+					<nav>
+						<a href="#">Menu1</a>
+						<a href="#">Menu2</a>
+						<a href="#">Menu3</a>
+						<a href="#">Menu4</a>
+						<a href="#">Menu5</a>
+					</nav>
+				</header>
+				<!-- Navigation Bar -->
+				
+				<!-- The flexible grid (content) -->
+				
+					
+					<div class="main">
+						<h2>Hot Sales</h2>
+						<div class="fakeimg" >Image</div>
+						<p>Some text..</p>
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus augue lectus, vehicula rutrum enim vitae, consequat dapibus eros.Cras tincidunt justo quis tincidunt convallis. Suspendisse sodales, turpis nec lobortis consequat, erat tellus gravida augue, ut blandit enim lacus vitae enim. Nunc libero nulla, faucibus laoreet malesuada vel, tincidunt non purus.</p>
+						<br>
+						<h2>Services</h2>
+						<div class="service">
+							<div>service 1</div>
+							<div>service 2</div>
+							<div>service 3</div>
+						</div>
+						<p>Some text..</p>
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus augue lectus, vehicula rutrum enim vitae, consequat dapibus eros. Cras tincidunt justo quis tincidunt convallis. Suspendisse sodales, turpis nec lobortis consequat, erat tellus gravida augue, ut blandit enim lacus vitae enim. Nunc libero nulla, faucibus laoreet malesuada vel, tincidunt non purus.</p>
+
+						<h2>Location</h2>
+						<div class="fakemap">Map</div>
+						
+						
+						<div class="car">
+							<div>car 1</div>
+							<div>car 2</div>
+							<div>car 3</div>
+							<div>car 4</div>
+						</div>
+					</div>
+				
+				<!-- Footer -->
+				<footer>
+					<p>Footer</p>
+				</footer>
+		   </div>
+
+		  </section>
+
+		  <section>
+        	<h2>Website Colour Swatches</h2>
+
+        	<div class="colour1" > #0320fc</div>
+        	<div class="colour2" > #355dfc</div>
+        	<div class="colour3" > #ccc</div>
+
+		  </section>
+
+	    
+	    </section>
+    <!-- // COMBINED ELEMENTS SECTION -->
+
+
+  </body>
+</html>
